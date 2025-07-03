@@ -7,7 +7,10 @@ def genere_partitions(fichier_yaml):
     for exercice in data["exercices"]:
         titre = exercice["titre"]
         annotation = exercice.get("annotation", "")
-        notes = " ".join(exercice["notes"])
+        try:
+          notes = " ".join(exercice["notes"])
+        except:
+          notes = "a b c d e f g a b c d e f g "
 
         ly_code = f'''
 \\markup {{ \\bold "{titre}" }}
