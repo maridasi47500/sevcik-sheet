@@ -1,0 +1,95 @@
+exercices:
+  - titre: Tierces en flageolet
+    type: doubles-cordes
+    annotation: Tierces mineures en doubles cordes flageolet
+    doigtés: [2, 3]
+    indication: Ne pas lever les doigts
+    positions: [2, 3, 4]
+    notes: ["<g' d''>", "<a e''>", "<b f''>", "<c g''>"]
+
+  - titre: Glissement en flageolet
+    type: glissando
+    annotation: Le 4ème doigt appuie la corde sur le flageolet
+    mesure: 4/4
+    notes: ["g''( a'')", "b''( c''')"]
+
+  - titre: Pizzicato
+    type: technique
+    annotation: Doigt avec beaucoup de peau sur la corde
+    passage: "avec le coude"
+    doigté_main_gauche: "bras plié vers la gauche"
+    articulation: pizzicato
+
+  - titre: Dixièmes
+    type: intervalle
+    annotation: "\\single not double \\\\"
+    description: "Intervalle large nécessitant une extension de main importante."
+    technique: "Main gauche bien détendue, attention à l’alignement du poignet."
+    indication: "Travaillez lentement au métronome pour stabiliser l'écart."
+    mesure: "4/4"
+    tonalité: "C major"
+    doigtés: [1, 4]
+    positions: [1, 3]
+    dynamique: "mf"
+    notes: ["<c' e''>", "<d' f''>", "<e' g''>", "<f' a''>"]
+  
+
+  - titre: Tierces mineures en doubles cordes flageolet
+    type: doubles-cordes
+    annotation: "Les deuxième et troisième doigts ne doivent pas être levés"
+    technique: "Avec un poignet lâche au niveau de talon"
+    position: 5
+    notes: ["<g' b'>", "<a' c''>", "<b' d''>"]
+
+  - titre: Introduction en tons de flageolets
+    type: flageolet
+    annotation: "Préparation à la répétition de l'introduction"
+    mesure: "4/4"
+    positions: [2, 3, 4]
+    glissement: "à pratiquer lors du changement de position"
+    traits: ["Viotti", "Paganini"]
+    notes: ["g''( a'')", "b''( c''')"]
+
+  - titre: Appogiature et flageoletto
+    type: ornement
+    annotation: "Fonctionne bien dans un tempo rapide"
+    technique: "Appogiature + flageoletto"
+    notes: []
+
+  - titre: Ponticello
+    type: sonorité
+    annotation: "Exécuté près du chevalet avec le tiers supérieur de l'archet"
+    dynamique: ["mp", "mf"]
+    technique: "Placer l’archet légèrement en avant du chevalet"
+    notes: []
+
+  - titre: Exercices introductifs
+    type: larghetto
+    annotation: "Le 4ème doigt appuie la corde sur le flageolet lors du glissement"
+    mesure: "4/4"
+    notes: ["g''( a'')", "a''( b'')"]
+
+  - titre: Pizzicato
+    type: technique
+    annotation: "Doigt avec beaucoup de peau sur la corde"
+    posture: "Bras gauche légèrement plié vers la gauche"
+    passage: "Avec le coude"
+    articulation: pizzicato
+    notes: ["d''", "e''", "f''"]
+
+  - titre: Variation III - flageolets
+    type: variation
+    annotation: "Peuvent être exécutés de n'importe quelle manière parmi les 4 sortes"
+    notes: []
+
+  - titre: Finales variées
+    type: conclusion
+    annotation: "Les 5 mesures finales étaient variées"
+    notes: []
+
+  - titre: Octaves couvertes
+    type: intervalle
+    annotation: ""
+    notes: ["<c' c''>", "<d' d''>", "<e' e''>"]
+
+
